@@ -16,7 +16,7 @@ let defaultMessages = {
 
   noEventsInRange: 'There are no events in this range.',
 
-  showMore: total => `+${total} more`,
+  showMore: total => `${total} Total Cases`,
 }
 
 export default function messages(msgs) {
