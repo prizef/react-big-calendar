@@ -82,7 +82,7 @@ class EventEndingRow extends React.Component {
 
   renderShowMore(segments, slot) {
     let { localizer } = this.props
-    let count = segments.length + 1
+    let count = eventsInSlot(segments, slot)
 
     return count ? (
       <a
